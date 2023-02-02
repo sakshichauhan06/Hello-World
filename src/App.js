@@ -4,7 +4,7 @@ import HelloWorld from "./HelloWorld";
 class App extends Component {
   render() {
     return (
-      // In the below code, I've created a separated component "HelloWorld.js", by doing this I would be able to edit the content & styling of this component quite easily. By creating components, it becomes easier to handle a lot of pages in our website.
+      // In the below code, I've created a separate component "HelloWorld.js". By doing this I would be able to edit the content & styling of this component quite easily. By creating components, it becomes easier to handle a lot of pages in our website.
       <div className="container">
         <HelloWorld />
       </div>
